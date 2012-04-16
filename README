@@ -1,0 +1,2 @@
+This is a chatting tool written when learning Qt programming. It's based on
+UDP protocol, and can only be used in a home network.

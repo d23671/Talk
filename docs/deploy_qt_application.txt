@@ -1,0 +1,10 @@
+Static linking
+windows (verified):
+1. cd $PATH_TO_QT
+2. configure -static (configure -shared to use shared linking)
+3. make sub-src
+4. CONFIG += static in .pro file
+5. on command line: qmake -config release. or choose release in qt creator
+6. build project
+7. use dependency walker to check missed dll.
+8. copy executables & missed dll into release dir.
